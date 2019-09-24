@@ -1,0 +1,23 @@
+composerを用いてプロジェクトを作成。
+WordControllerを作成。add,edit,deleteアクションを作成。対応するbladeを作成。
+layoutsディレクトリ、admin.blade.phpを作成。
+単語登録用のviewを作成。
+
+
+次：単語登録用のモデル・テーブルを作成し、Wordコントローラにインスタンスを作成する。
+
+mysqlの設定完了。.envファイルのmysql項目の編集完了。
+Wordsモデルの作成完了。
+WordControllerにvalidationの設定完了。
+
+Wordsテーブルの中身を確認しようとしたが失敗。migrateをしようとするもエラー。
+エラーを解決。.envファイルの値が不具合により反映されていなかったのが原因。「php artisan config:clear」にて解消。
+
+
+次：恐らくテーブルに情報を保存出来ていない（wordsテーブル）。mynews_newを参照して正しくテーブルに保存できるフォームを作り、データを保存する。
+　：admin/word/createのviewの、navbarに不具合があるので確認・修正する。
+　
+navbarの修正完了。原因は書き損じ。
+
+
+
